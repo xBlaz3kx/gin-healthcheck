@@ -9,7 +9,7 @@ import (
 )
 
 type KetoCheck struct {
-	client  *ketoClient.Client
+	client  *ketoClient.APIClient
 	timeout int
 }
 
